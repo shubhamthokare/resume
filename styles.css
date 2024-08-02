@@ -1,29 +1,68 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Roboto', sans-serif;
     line-height: 1.6;
     margin: 0;
     padding: 0;
     color: #333;
+    background-color: #f8f9fa;
+}
+
+.container {
+    width: 80%;
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    border: 1px solid #e0e0e0;
+    background: linear-gradient(135deg, #f9f9f9, #e0e0e0);
 }
 
 header {
-    background: #f4f4f4;
+    background: #007bff;
+    color: #fff;
     padding: 20px;
     text-align: center;
+    border-radius: 8px 8px 0 0;
 }
 
 header h1 {
     margin: 0;
+    font-size: 2.5em;
 }
 
-section {
+header .title {
+    margin: 10px 0;
+    font-size: 1.5em;
+}
+
+header .contact-info p {
+    margin: 5px 0;
+}
+
+header .contact-info a {
+    color: #fff;
+    text-decoration: underline;
+}
+
+main {
     padding: 20px;
 }
 
+section {
+    margin-bottom: 20px;
+}
+
 h2 {
-    color: #333;
+    color: #007bff;
     border-bottom: 2px solid #f4f4f4;
     padding-bottom: 10px;
+}
+
+h3 {
+    color: #333;
+    margin-top: 20px;
 }
 
 ul {
@@ -32,13 +71,28 @@ ul {
 }
 
 ul li {
-    background: #f4f4f4;
+    background: #e0f7fa;
     margin: 5px 0;
     padding: 10px;
+    border-left: 5px solid #007bff;
+    border-radius: 5px;
+}
+
+.skills li {
+    display: inline-block;
+    background: #007bff;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.skills li strong {
+    color: #ffdd57;
 }
 
 a {
-    color: #333;
+    color: #007bff;
     text-decoration: none;
 }
 
